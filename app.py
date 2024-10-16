@@ -10,6 +10,13 @@ from scipy.optimize import curve_fit
 # Title of the App
 st.title("Relative Permeability Curve App")
 
+# Add Built by Saleh Atwah and LinkedIn logo
+st.markdown("""
+<h3 style='text-align: center;'>Built by Saleh Atwah</h3>
+<p style='text-align: center;'><a href='https://www.linkedin.com/in/saleh-al-atwah/' target='_blank'>
+<img src='https://i.pinimg.com/originals/b2/f8/28/b2f828513f21444829a619ce563d4d4e.png' style='width: 50px; height: 50px;'></a></p>
+""", unsafe_allow_html=True)
+
 # Add Markdown text for description
 st.markdown("""
 This application visualizes the relative permeability curves for oil and water in porous media. 
