@@ -8,7 +8,6 @@ import pandas as pd
 from scipy.optimize import curve_fit
 st.set_page_config(
     page_title="Relative Permeability App",  # Title displayed in the browser tab
-    layout="wide"  # You can set layout to "centered" or "wide" based on your preference
 )
 # Title of the App
 st.title("Relative Permeability Curve App")
